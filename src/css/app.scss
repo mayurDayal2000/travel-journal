@@ -1,0 +1,122 @@
+nav {
+  width: 100%;
+  padding-block: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2vw;
+
+  background-color: #f55a5a;
+
+  h2 {
+    font-weight: 500;
+    font-size: 14.4608px;
+    letter-spacing: -0.075em;
+    color: #fff;
+  }
+}
+
+main {
+  width: 85%;
+  margin: 8vw auto 5.4vw;
+
+  @media screen and (min-width: 1200px) {
+    width: 50%;
+  }
+
+  section {
+    margin-bottom: 6.5vw;
+
+    display: flex;
+    align-items: center;
+    gap: 3.6vw;
+
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    img[alt="journal cover image"] {
+      border-radius: 5px;
+      max-width: 150px;
+    }
+
+    .journal-contents ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+
+      gap: 2vw;
+      margin-bottom: 0.7vw;
+
+      @media screen and (min-width: 998px) {
+        margin-bottom: 0.3vw;
+      }
+
+      @media screen and (max-width: 450px) {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      li {
+        display: flex;
+        align-items: center;
+        gap: 0.7vw;
+
+        p {
+          font-weight: 400;
+          font-size: 10.24px;
+          letter-spacing: 0.17em;
+          color: #2b283a;
+
+          @media screen and (min-width: 998px) {
+            font-size: 13px;
+          }
+        }
+
+        a {
+          font-weight: 400;
+          font-size: 10.24px;
+          color: #918e9b;
+
+          @media screen and (min-width: 998px) {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+
+    h2 {
+      font-weight: 700;
+      font-size: 25px;
+      color: #2b283a;
+      margin-bottom: 3.6vw;
+
+      @media screen and (min-width: 998px) {
+        margin-bottom: 1.8vw;
+      }
+    }
+
+    .timeline {
+      font-weight: 700;
+      font-size: 10.24px;
+      color: #2b283a;
+      margin-bottom: 1.6vw;
+
+      @media screen and (min-width: 998px) {
+        margin-bottom: 0.8vw;
+        font-size: 13px;
+      }
+    }
+
+    .description {
+      font-weight: 400;
+      font-size: 10.24px;
+      line-height: 150%;
+      color: #2b283a;
+
+      @media screen and (min-width: 998px) {
+        font-size: 13px;
+      }
+    }
+  }
+}

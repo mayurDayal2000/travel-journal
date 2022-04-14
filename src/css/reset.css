@@ -1,7 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700);
+
 *,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family: "Inter";
+}
+
+body {
+  background-color: #fff;
 }
